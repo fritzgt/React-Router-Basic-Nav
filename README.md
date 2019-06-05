@@ -39,7 +39,7 @@ Topics:
 
 [x] Be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components.
 
-- You should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
+[x]You should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
 
 ### Steps for setting up your Navigation
 

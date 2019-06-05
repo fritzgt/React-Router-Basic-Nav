@@ -5,11 +5,10 @@ import { Route } from "react-router-dom";
 
 const App = () => (
   <div>
-    <Navigation>
-      <Route path="/" component={Home} exact />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-    </Navigation>
+    <Navigation />
+    <Route path="/" component={Home} exact />
+    <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact} />
   </div>
 );
 
