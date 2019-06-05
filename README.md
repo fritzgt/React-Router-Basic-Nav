@@ -39,13 +39,15 @@ Topics:
 
 [x] Be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components.
 
-[x]You should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
+[x] You should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
 
 ### Steps for setting up your Navigation
 
-- Inside of `Navigation.js` `import { Link } from 'react-router-dom'`.
-- Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards.
-- Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component.
+[x] Inside of `Navigation.js` `import { Link } from 'react-router-dom'`.
+
+[x]Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards.
+
+[x] Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component.
 
 ### Resources
 
